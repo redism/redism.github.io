@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-저는 개발자입니다. :)
+저는 개발자입니다.
