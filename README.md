@@ -21,7 +21,8 @@ typora ./_drafts/-*
 * Publishing a new post
 
 ```
-mv ./_drafts/{file} ./_posts/2016-12-06-{file}.md
+bundle exec jekyll publish _drafts/real-artists-ship.md
+# mv ./_drafts/{file} ./_posts/2016-12-06-{file}.md
 bundle exec jekyll build
 ```
 
