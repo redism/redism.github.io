@@ -204,3 +204,34 @@ pre {
         }
     }
 }
+
+
+/**
+ * Table - 2016-12-16 by Jeff imported from
+ * https://raw.githubusercontent.com/sindresorhus/github-markdown-css/gh-pages/github-markdown.css
+ */
+table {
+    display: block;
+    width: 100%;
+    overflow: auto;
+}
+
+table th {
+    font-weight: bold;
+}
+
+table th,
+table td {
+    padding: 6px 13px;
+    border: 1px solid #ddd;
+}
+
+table tr {
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+
+table tr:nth-child(2n) {
+    background-color: #f8f8f8;
+}
+
