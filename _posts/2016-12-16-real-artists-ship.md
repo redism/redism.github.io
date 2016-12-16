@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Real Artists Ship
+tags:
+- thought
+- startup
 ---
 
 내가 개인적으로 무척 좋아하는 문구가 있다. 
