@@ -53,3 +53,13 @@ export default connect(mapStateToProps, mapDispatchToProps)(reduxForm({ form: 'c
 
 특히 immutable을 사용하기 때문에 selector를 사용하는게 좋다. (참고 : [reselect](https://github.com/reactjs/reselect))
 
+#### 4. Form을 리셋하는 방법
+
+[이 링크](http://redux-form.com/6.3.1/docs/faq/HowToClear.md/)에 있는 여러가지 방법 중에 가장 쉽고 편리한 방법. 그냥 action 으로 만들어서 사용.
+
+```javascript
+import { reset } from 'redux-form/immutable'
+
+export const resetCardsPageForm = () => reset('cardsPage') // cardsPage = form 이름.
+```
+
