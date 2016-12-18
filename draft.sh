@@ -2,3 +2,4 @@
 #
 # ex: ./draft.sh "New post title"
 bundle exec jekyll draft $@
+open ./_drafts/$@.md
