@@ -3,6 +3,8 @@ layout: post
 title: iOS - Automatic injection of local IP address
 ---
 
+Android에서의 방법은 [이 링크](/2017/02/27/android-automatic-injection-of-local-ip-adress.html)를 참고하시면 됩니다.
+
 최근에 클라이언트 개발자들에게 각기 로컬 머신에서 서버를 셋업할 수 있도록 하였다. 그리고 iOS의 경우 build scheme에 따라서 바라보는 IP 주소를 바꿀 수 있도록 코드를 작성했다. 기본적으로는 `http://127.0.0.1:8082`의 주소로 접속하도록 만들어 놓았다.
 
 하지만 시뮬레이터로만 작업을 하지 않고 디바이스를 이용해서 작업하는 경우가 잦다보니, 각자 해당 주소를 자신의 로컬 머신 IP 주소로 변경하여 작업하는 일이 생겨났다. 그런데 실수로 변경된 로컬 머신 IP를 커밋하기도 하고, 매번 지저분한 변경사항을 스태시하고 커밋하는 것도 영 귀찮은 일이 아니었다.
